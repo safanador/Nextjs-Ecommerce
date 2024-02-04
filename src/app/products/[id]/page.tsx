@@ -5,6 +5,8 @@ import { notFound } from "next/navigation"
 import {cache} from "react"
 import AddToCartButton from "./AddToCartButton";
 import { incrementProductQuantity } from "./actions";
+import { Metadata } from "next";
+
 
 interface ProductPageProps{
     params:{
