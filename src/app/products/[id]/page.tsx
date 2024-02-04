@@ -29,7 +29,7 @@ export async function generateMetadata(
         title:product.name + "- Sergiostore",
         description: product.description,
         openGraph:{
-            image:[{url:product.imageUrl}],
+            images:[{url:product.imageUrl}],
         },
     };
 }
