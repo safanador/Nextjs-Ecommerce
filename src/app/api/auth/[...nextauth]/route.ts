@@ -8,7 +8,7 @@ import GoogleProvider from "next-auth/providers/google";
 LINES COMMENTED DUE TO AuthOptions folder being separeted
 */
 import NextAuth from "next-auth";
-import authOptions from "@/lib/options";
+import authOptions from "@/app/api/auth/[...nextauth]/options";
 
 /*export const authOptions: NextAuthOptions = {
     adapter:PrismaAdapter(prisma) as Adapter,
